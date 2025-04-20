@@ -1,21 +1,20 @@
-# AI Library Chatbot
+# AI Library Chatbot Prototype (Kenya Case Study)
 
-This is a prototype chatbot for assisting users in a university library setting. Built using Python and Rasa for conversational AI.
+This is a basic AI-powered chatbot prototype designed for use in Kenyan library systems, developed as part of the case study **"AI Integration in Kenyan Library Systems: A Case Study Approach"**.
 
-## Features
-- Book search by title, author, or genre
-- 24/7 library query response
-- NLP-based intent recognition
+---
 
-## Requirements
-- Python 3.8+
-- Rasa
-- spaCy
-- NLTK
+## Project Overview
 
-## Getting Started
+This chatbot simulates a simple text-based assistant for helping library users find books and get basic support. It is part of a research project exploring how AI tools like Rasa and Python can improve library services in institutions such as the University of Nairobi and Strathmore University.
 
-1. Clone the repository
-2. Run `pip install -r requirements.txt`
-3. Train the chatbot with `rasa train`
-4. Start the bot using `rasa shell`
+---
+
+## Technologies Used
+
+- **Python 3**
+- **Rasa (Design Concepts)**
+- **NLU/Domain/Stories YML files**
+- **Basic NLP logic for interaction simulation**
+
+---
