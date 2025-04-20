@@ -19,6 +19,3 @@ This is a prototype chatbot for assisting users in a university library setting.
 2. Run `pip install -r requirements.txt`
 3. Train the chatbot with `rasa train`
 4. Start the bot using `rasa shell`
-
-## License
-MIT License
