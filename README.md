@@ -3,10 +3,10 @@
 This is a Python-based voice-enabled AI chatbot designed to assist users in a library setting. It supports spoken input and outputs, as well as language detection for multilingual interactions.
 
 ## Features
-- 🎙 Voice input from microphone
-- 🗣 Spoken responses using Google Text-to-Speech
-- 🌍 Automatic language detection
-- 📚 Sample library responses
+- Voice input from microphone
+- Spoken responses using Google Text-to-Speech
+- Automatic language detection
+- Sample library responses
 
 ## How to Run
 
