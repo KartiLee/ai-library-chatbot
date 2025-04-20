@@ -1,3 +1,5 @@
-rasa
-spacy
-nltk
+SpeechRecognition
+gTTS
+playsound
+langdetect
+pyaudio; platform_system == "Windows"

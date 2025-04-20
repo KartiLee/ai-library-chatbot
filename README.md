@@ -1,20 +1,30 @@
-# AI Library Chatbot Prototype (Kenya Case Study)
+# AI Library Chatbot (with Voice & Multilingual Support)
 
-This is a basic AI-powered chatbot prototype designed for use in Kenyan library systems, developed as part of the case study **"AI Integration in Kenyan Library Systems: A Case Study Approach"**.
+This is a Python-based voice-enabled AI chatbot designed to assist users in a library setting. It supports spoken input and outputs, as well as language detection for multilingual interactions.
 
----
+## Features
+- 🎙 Voice input from microphone
+- 🗣 Spoken responses using Google Text-to-Speech
+- 🌍 Automatic language detection
+- 📚 Sample library responses
 
-## Project Overview
+## How to Run
 
-This chatbot simulates a simple text-based assistant for helping library users find books and get basic support. It is part of a research project exploring how AI tools like Rasa and Python can improve library services in institutions such as the University of Nairobi and Strathmore University.
+1. Install dependencies:
 
----
+```bash
+pip install -r requirements.txt
+```
 
-## Technologies Used
+2. Run the chatbot:
 
-- **Python 3**
-- **Rasa (Design Concepts)**
-- **NLU/Domain/Stories YML files**
-- **Basic NLP logic for interaction simulation**
+```bash
+python chatbot.py
+```
 
----
+Ensure your microphone is enabled and accessible.
+
+## Notes
+
+- Works best with stable internet connection (for Google APIs)
+- You may need to install `pyaudio` manually on Windows
